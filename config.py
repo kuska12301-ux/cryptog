@@ -6,19 +6,19 @@ load_dotenv()
 token = os.getenv('BOT_TOKEN', '')
 api_cryptobot = os.getenv('API_CRYPTOBOT', '')
 
-channal_id = -1002103256870
-ID_SEND_TRANSFER = -1002011813882
-URL_LOG_CHANNAL = -1002173546748
+channal_id = -1003783482880
+ID_SEND_TRANSFER = -5238725046
+URL_LOG_CHANNAL = -5238725046
 
-ADMIN = [6038457276]
-ADMIN_USERNAME = '@MamaYaWorkerSuka'
-URL_BOT = 'https://t.me/AloBiznes?DadaDengi'
-NICNAME = 'AloBiznes?DadaDengi'
-NAME_CASINO = 'CasinoDengi'
+ADMIN = [8034491282]
+ADMIN_USERNAME = '@MARTIN_G_SUPPORT'
+URL_BOT = 'https://t.me/MARTIN_CASINO_GAME'
+NICNAME = 'MARTIN CASINO'
+NAME_CASINO = 'MARTIN CASINO'
 
-LIMIT_STAVKA = 30
-lose_withdraw = 20
-min_stavka_referal = 10
+LIMIT_STAVKA = 3000
+lose_withdraw = 2000
+min_stavka_referal = 0.1
 CASHBACK_PROCENT = 10
 CASHBACK_LIMIT = 1
 PROCENT_DRAW = 7
