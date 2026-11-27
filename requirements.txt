@@ -1,0 +1,7 @@
+aiogram
+aiocryptopay
+apscheduler
+pytz
+python-dotenv
+datetime
+db-sqlite3

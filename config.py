@@ -1,0 +1,44 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+token = os.getenv('BOT_TOKEN', '')
+api_cryptobot = os.getenv('API_CRYPTOBOT', '')
+
+channal_id = -1002103256870
+ID_SEND_TRANSFER = -1002011813882
+URL_LOG_CHANNAL = -1002173546748
+
+ADMIN = [6038457276]
+ADMIN_USERNAME = '@MamaYaWorkerSuka'
+URL_BOT = 'https://t.me/AloBiznes?DadaDengi'
+NICNAME = 'AloBiznes?DadaDengi'
+NAME_CASINO = 'CasinoDengi'
+
+LIMIT_STAVKA = 30
+lose_withdraw = 20
+min_stavka_referal = 10
+CASHBACK_PROCENT = 10
+CASHBACK_LIMIT = 1
+PROCENT_DRAW = 7
+PROCENT_NOT_GAME = 10
+TIMER = 16
+
+FAKE_NICKNAME = ['KARL', 'Alina', 'Кто то', 'Лудик', 'Маша', 'M**ks', '😈', 'Панфилов', 'Аркадий', 'Паровозов', 'Евгений', 'Макс [Check Bio]', 'Дориан', 'Карим', 'Алфей', 'zzzzzz', 'Ya Kay💸']
+DIAPAZONE_AMOUNT = [2.50, 19.50]
+
+Bones = ['Больше', 'Меньше', '1', '2', '3', '4', '5', '6', 'Пвп', 'Ничья', 'Равно', 'Дуэль', '2М', '2Б', '2 Больше', '2 Меньше', 'Чет', 'Нечет']
+Slots = ['Слоты']
+Basketball = ['Баскетбол Гол', 'Баскет Гол', 'Баскетбол Мимо', 'Баскет Мимо']
+Fotbool = ['Футбол Гол', 'Фут Гол', 'Футбол Мимо', 'Фут Мимо']
+SU_E_FA = ['Камень', 'Ножницы', 'Бумага']
+WHEEL = ['Красное', 'Черное', 'Зеленое']
+
+all_text = ['Больше', 'Меньше', '1', '2', '3', '4', '5', '6', 'Пвп', 'Дуэль', '2М', '2Б', '2 Больше', '2 Меньше', 'Чет', 'Нечет',
+            'Слоты', 'Баскетбол Гол', 'Красное', 'Черное', 'Зеленое', 'Баскет Гол', 'Ничья', 'Равно', 'Баскетбол Мимо', 'Баскет Мимо', 'Футбол Гол', 'Фут Гол', 'Футбол Мимо', 'Фут Мимо', 'Камень', 'Ножницы', 'Бумага']
+
+RED = ['1', '2', '3', '4', '5', '6', '7']
+BLACK = ['8', '9', '10', '11', '12', '13', '14']
+GREEN = '0'
+
